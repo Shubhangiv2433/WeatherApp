@@ -17,3 +17,6 @@ A simple weather application built using HTML, CSS, and JavaScript.
 
 🌍 API Used
 ☁ OpenWeather API
+
+
+https://shubhangiv2433.github.io/WeatherApp/
