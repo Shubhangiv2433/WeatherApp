@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=We">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Weather</title>
+    <link rel="icon" type="image/png" href="img\sun.png" sizes="48*48">
+</head>
+
+<body>
+    <div class="card">
+        <div class="search">
+            <input type="text" placeholder="Search" class="search-icon">
+            <button class="btn"><i class="fa-solid fa-magnifying-glass f-icon"></i></button>
+        </div>
+        <div class="error">
+            <p>Invalid City Name</p>
+        </div>
+        <div class="weather">
+            <img src="img\cloud.png" alt="cloud" class="cloud-img">
+            <div class="title">
+                <h1 class="temp"></h1>
+                <h2 class="city"></h2>
+            </div>
+
+            <div class="detail-wrap">
+                <div class="per-detail">
+                    <span><span><i class="fa-solid fa-water"></i></span></span>
+                    <div class="per-info">
+                        <h2 class="humidity"></h2>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="speed">
+                    <span><i class="fa-solid fa-wind"></i></span>
+                    <div class="speed-info">
+                        <h2 class="wind"></h2>
+                        <p>Wind Speed</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>

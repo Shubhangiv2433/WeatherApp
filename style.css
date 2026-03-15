@@ -1,0 +1,115 @@
+.card {
+    width: 90%;
+    max-width: 470px;
+    color: #fff;
+    margin: 100px auto 0;
+    padding: 40px 35px;
+    border-radius: 15px;
+    background: linear-gradient(132deg, #00feba, #5b548a);
+    text-align: center;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+}
+
+input.search-icon {
+    font-size: 16px;
+    outline: 0;
+    border: 0;
+    color: #555;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-right: 19px;
+    height: 35px;
+    width: 80%;
+}
+
+button.btn {
+    outline: none;
+    background: none;
+    border: none;
+    color: #716b6b;
+    margin-left: -60px;
+}
+
+
+i.f-icon {
+    line-height: 2;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.error p {
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 18px;
+}
+
+img.cloud-img {
+    width: 40%;
+    margin-top: 30px;
+}
+
+h1.temp {
+    font-family: monospace;
+    font-size: 52px;
+}
+
+h1.city {
+    margin: 5px 0px;
+    font-family: system-ui;
+    font-size: 28px;
+}
+
+.detail-wrap {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 33px;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+}
+
+h2 {
+    margin: 0;
+    padding: 0;
+}
+
+.speed {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+i.fa-solid.fa-wind {
+    font-size: 23px;
+}
+
+.per-detail {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+}
+
+i.fa-solid.fa-water {
+    font-size: 23px;
+}
+
+p {
+    margin: 0;
+}
+
+h2.wind {
+    font-size: 30px;
+}
+
+.per-detail h2 {
+    font-size: 30px;
+}
+
